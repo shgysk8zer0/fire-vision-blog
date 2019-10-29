@@ -58,3 +58,5 @@
 *.db filter=lfs diff=lfs merge=lfs -text
 # Other
 favicon.ico filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.icon filter=lfs diff=lfs merge=lfs -text
