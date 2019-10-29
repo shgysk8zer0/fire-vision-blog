@@ -8,7 +8,6 @@
 # Git LFS
 # Images
 *.ico filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
@@ -58,3 +57,6 @@
 # Database
 *.db filter=lfs diff=lfs merge=lfs -text
 # Other
+favicon.ico filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.icon filter=lfs diff=lfs merge=lfs -text
