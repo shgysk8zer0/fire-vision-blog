@@ -58,3 +58,25 @@
 # Database
 *.db filter=lfs diff=lfs merge=lfs -text
 # Other
+img/apple-touch-icon-120x120.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-60x60-precomposed.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-76x76-precomposed.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon.png filter=lfs diff=lfs merge=lfs -text
+img/icon-16.png filter=lfs diff=lfs merge=lfs -text
+img/icon-192.png filter=lfs diff=lfs merge=lfs -text
+img/mstile-144x144.png filter=lfs diff=lfs merge=lfs -text
+img/mstile-150x150.png filter=lfs diff=lfs merge=lfs -text
+img/mstile-310x150.png filter=lfs diff=lfs merge=lfs -text
+img/mstile-310x310.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-120x120-precomposed.png filter=lfs diff=lfs merge=lfs -text
+img/icon-194.png filter=lfs diff=lfs merge=lfs -text
+img/icon-512.png filter=lfs diff=lfs merge=lfs -text
+img/mstile-70x70.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-152x152.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-180x180-precomposed.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-60x60.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-76x76.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-precomposed.png filter=lfs diff=lfs merge=lfs -text
+img/icon-32.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-152x152-precomposed.png filter=lfs diff=lfs merge=lfs -text
+img/apple-touch-icon-180x180.png filter=lfs diff=lfs merge=lfs -text
