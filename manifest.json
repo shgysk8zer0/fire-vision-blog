@@ -1,10 +1,10 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Fire Vision Blog",
+  "short_name": "Fire Vision Blog",
   "version": "1.0.0",
   "start_url": "/",
   "lang": "en",
-  "description": "",
+  "description": "A blog for Fire Vision",
   "icons": [{
     "src": "/img/favicon.svg",
     "sizes": "any",
@@ -23,7 +23,7 @@
     "sizes": "wxh",
     "type": "image/*"
   }],
-  "theme_color": "#528ff9",
+  "theme_color": "#ae4224",
   "background_color": "#fefefe",
   "display": "standalone",
   "developer": {

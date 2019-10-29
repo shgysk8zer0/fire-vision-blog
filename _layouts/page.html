@@ -1,5 +1,5 @@
 ---
-name: wide
+name: post
 theme: default
 og-type: website
 itemtype: 'https://schema.org/WebPage'
@@ -10,7 +10,7 @@ itemtype: 'https://schema.org/WebPage'
 	dir="{{ site.dir }}"
 	class="no-js border-box smooth-scroll"
 	data-theme="{{ page.theme | default: layout.theme }}"
-	data-layout="wide"
+	data-layout="right-sidebar"
 	{% if site.service_worker %}data-service-worker="{{site.service_worker }}"{% endif %}
 	{% if site.google-analytics %}data-google-analytics="{{ site.google-analytics }}"{% endif %}
 	{% if page.ads %}data-ad-sense-id="{{ site.ad-sense }}"{% endif %}
@@ -26,6 +26,7 @@ itemtype: 'https://schema.org/WebPage'
 		<main id="main" class="card shadow">
 			{{ content }}
 		</main>
+		{% include sidebar.html recent-posts=5 %}
 		{% include footer.html %}
 		{% include share-button.html %}
 	</body>

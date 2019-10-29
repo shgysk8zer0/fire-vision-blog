@@ -1,5 +1,5 @@
 author: Chris Zuber
-title: Jekyll Template Demo
+title: Fire Vision Blog
 # url: ''
 markdown: kramdown
 version: 3.2.15
@@ -34,14 +34,14 @@ keywords:
 - es6
 repository:
   username: shgysk8zer0
-  project: jekyll-template
-  title: Jekyll Template
+  project: fire-vision-blog
+  title: Fire Vision Blog Repository
 # twitter:
 feed:
   url: /feed.rss
   type: application/rss+xml
 icons: '/img/icons.svg'
-theme-color: '#528ff9'
+theme-color: '#ae4224'
 background-color: '#242424'
 # discus-identifier:
 # google-analytics:
