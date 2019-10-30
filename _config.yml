@@ -95,11 +95,16 @@ defaults:
   values:
     layout: post
     author:
-    - givenName: Chris
-    - familyName: Zuber
-    - url: 'https://shgysk8zer0.github.io'
-    - gravatar: '43578597e449298f5488c2407c8a8ae5'
-    - twitter: shgysk8zer0
+      givenName: Chris
+      familyName: Zuber
+      url: 'https://shgysk8zer0.github.io'
+      gravatar: '43578597e449298f5488c2407c8a8ae5'
+      twitter: shgysk8zer0
+    publisher:
+      name: Fire Vision
+      url: 'https://firevision.us'
+      logo:
+        url: '/img/icon-256.png'
     permalink: /posts/:categories/:year/:month/:day/:title/
     comments: true
     ads: false
@@ -108,7 +113,17 @@ defaults:
     path: _drafts
   values:
     layout: post
-    author: Chris Zuber
+    author:
+      givenName: Chris
+      familyName: Zuber
+      url: 'https://shgysk8zer0.github.io'
+      gravatar: '43578597e449298f5488c2407c8a8ae5'
+      twitter: shgysk8zer0
+    publisher:
+      name: Fire Vision
+      url: 'https://firevision.us'
+      logo:
+        url: '/img/icon-256.png'
     permalink: /posts/:categories/:year/:month/:day/:title/
     comments: false
     ads: false
