@@ -1,4 +1,5 @@
 /node_modules/
+service-worker.js
 /_site/
 /img/
 /css/
