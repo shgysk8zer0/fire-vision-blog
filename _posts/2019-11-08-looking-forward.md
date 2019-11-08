@@ -1,6 +1,7 @@
 ---
 title: Looking Forward
 description: Fire Vision is the newest tool for fighting fires in the 21st century
+draft: true
 author:
   givenName: Justin
   familyName: Powers
