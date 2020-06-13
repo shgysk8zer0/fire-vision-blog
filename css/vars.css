@@ -1,5 +1,25 @@
----
----
-:root[data-theme="default"] {
-	--accent-color: {{ site.theme-color }};
+@import url("https://cdn.kernvalley.us/css/core-css/theme/default/index.css");
+
+:root {
+	--accent-color: #ae4224;
+	--button-background: var(--accent-color);
+	--button-active-background: #7C321E;
+	--button-reject-disabled-background: var(--button-disabled-background);
+	--button-reject-disabled-color: var(--button-disabled-color);
+	--button-accept-disabled-background: var(--button-disabled-background);
+	--button-accept-disabled-color: var(--button-disabled-color);
+	--contrast-color: #4c4c4c;
+
+	--gnome-gradient-light: linear-gradient(#f6f6f6, #ededed);
+	--gnome-gradient-dark: linear-gradient(#343434, #2f2f2f);
+	--gnome-icon-color: #464644;
+
+	--gnome-gradient: var(--gnome-gradient-light);
+	--nav-background: var(--gnome-gradient);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--gnome-gradient: var(--gnome-gradient-dark);
+	}
 }

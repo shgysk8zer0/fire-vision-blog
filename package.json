@@ -38,7 +38,7 @@
   "scripts": {
     "preinstall": "if [ -f '.gitmodules' ]; then git submodule update --init --recursive; fi",
     "test": "npm run lint",
-    "start": "npm run netlify:serve",
+    "start": "npm run netlify:live",
     "lint": "npm run lint:all",
     "lint:all": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint ${npm_package_config_dir_js}",

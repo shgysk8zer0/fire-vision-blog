@@ -10,6 +10,17 @@
 	padding: 0.4em 1.4em;
 }
 
+article [itemprop~="articleBody"] img.float-right, article [itemprop~="articleBody"] img.float-left {
+	margin: 1.5em;
+}
+
+@media (max-width: 800px) {
+	.float-left.mobile-no-float, .float-right.mobile-no-float {
+		float: none;
+		text-align: center;
+	}
+}
+
 article header {
 	padding: 0.8rem;
 }
